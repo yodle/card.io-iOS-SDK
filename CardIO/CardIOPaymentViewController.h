@@ -1,6 +1,6 @@
 //
 //  CardIOPaymentViewController.h
-//  Version 5.2.2
+//  Version 5.2.2-10-g112f386
 //
 //  See the file "LICENSE.md" for the full license governing this code.
 //
@@ -130,6 +130,9 @@
 
 /// Set to YES if you need to collect the billing postal code. Defaults to NO.
 @property(nonatomic, assign, readwrite) BOOL collectPostalCode;
+
+/// Set to YES if you need to collect the cardholder name. Defaults to NO.
+@property(nonatomic, assign, readwrite) BOOL collectCardholderName;
 
 /// Set to NO if you don't want the camera to try to scan the card expiration.
 /// Applies only if collectExpiry is also YES.

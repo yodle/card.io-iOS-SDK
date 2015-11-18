@@ -1,6 +1,6 @@
 //
 //  CardIOUtilities.h
-//  Version 5.2.2
+//  Version 5.2.2-10-g112f386
 //
 //  See the file "LICENSE.md" for the full license governing this code.
 //
